@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css2?family=Quantico:wght@100;200;300;400;500;600;700&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    font-family: 'Quantico', sans-serif;
+}
+header{
+    background-color: rgba(39, 44, 61, 1);
+    height: 70px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+header nav{
+    padding: 25px;
+    display: flex;
+}
+.ul1{
+    display: flex;
+    gap: 25px;
+}
+header nav ul li{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+header nav ul li:hover{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 156, 40, 1);
+}
+.input1{
+    background-color: rgba(64, 72, 100, 1);
+    border: none;
+    width: 241px;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0px;
+    left: 1400px;
+}
+.select{
+    position: absolute;
+    right: 0;
+    left: 1700px;
+}
+.searchb{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 1610px;
+    top: 25px;
+}
+#dropdownRadioButton{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 165px;
+    height: 30px;
+}
+main .sec1{
+    background-image: url('./imgs/csgo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.sec2{
+    background-color: black;
+}
+.sec2 p{
+    font-size: 46px;
+    color: white;
+    text-align: center;
+}
+.second-section-imgs{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.section-three-div{
+    background-color: rgba(27, 30, 39, 1);
+    height: 930px;
+    width: 95%;
+    margin: 0 auto;
+}
+.sec3{
+    background-color: black;
+}
+.section-three-first-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 61px;
+}
+.section-three-divs{
+    display: flex;
+}
+.texts-sec3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 15px;
+}
+footer{
+    background-color: rgba(39, 44, 61, 1);
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+footer .footer-div ul{
+    display: flex;
+    gap: 25px;
+}
+footer .footer-div ul li{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+footer .footer-div ul li:hover{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 156, 40, 1);
+}
+.footer-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+}
